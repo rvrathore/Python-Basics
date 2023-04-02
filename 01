@@ -1,0 +1,56 @@
+Python is a popular high-level programming language used for a wide range of applications, including web development, scientific computing, and data analysis. Here are some basics of Python:
+
+*1 - Variables and Data Types: In Python, you can create variables to store data such as numbers, strings, and boolean values.
+a = 10  # integer
+b = "Hello, World!"  # string
+c = True  # boolean
+
+*2 - Operators: Python supports various operators such as arithmetic, assignment, comparison, and logical operators.
+# Arithmetic operators
+x = 10
+y = 5
+print(x + y)  # 15
+print(x - y)  # 5
+print(x * y)  # 50
+print(x / y)  # 2.0
+
+# Assignment operators
+x += y  # equivalent to x = x + y
+
+# Comparison operators
+x == y  # False
+x != y  # True
+x > y   # True
+x < y   # False
+# Logical operators
+x and y  # True
+x or y   # True
+not x    # False
+
+*3 - Control Structures: Python provides various control structures such as if-else statements, for loops, and while loops.
+# if-else statement
+x = 10
+if x > 5:
+    print("x is greater than 5")
+else:
+    print("x is less than or equal to 5")
+# for loop
+for i in range(1, 5):
+    print(i)
+# while loop
+i = 1
+while i <= 5:
+    print(i)
+    i += 1
+    
+*4 - Functions: You can define functions in Python to reuse code and make it more modular.
+def add_numbers(x, y):
+    return x + y
+result = add_numbers(3, 5)
+print(result)  
+
+*5 - Libraries: Python has a vast collection of libraries that provide additional functionality. For example, NumPy is a library for scientific computing, pandas is a library for data analysis, and Flask is a library for web development.
+import numpy as np
+x = np.array([1, 2, 3])
+print(x.mean())  
+
